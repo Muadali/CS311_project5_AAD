@@ -1,0 +1,47 @@
+.container-fluid{
+    background-color: white;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    align-content: center;
+    min-height: 500px;
+    max-width: 1000px;
+    flex-direction: column;
+    
+    }
+    #header-container{
+    background-color:blueviolet;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+    width: 800px;
+    font-size: 500%;
+    flex-direction: row;
+    text-align: center;
+    
+    }
+    
+    .row{
+        width: 800px;
+       
+       
+    }
+    
+    .col-3{
+        padding-top: 4%;
+        padding-bottom: 4%;
+     
+    }
+    .col-9{
+        padding: 2% 2% ;
+        text-align: center;
+        border: 4px solid black;
+    }
+    
+    
+    #madlibsimage{
+        height: 100%;
+        max-width: 100%;
+        display: block;
+      
+    }
